@@ -1,0 +1,72 @@
+Create Table Produits(Num_p integer not null , Designation_p varchar(500) ,Prix_achat varchar(900) , Prix_vente varchar(900) ,
+Quantite_p integer  , constraint Pk_workgroup primary key(Num_p));
+-------------------------------------------------------------------
+Create Table Categories(Id_categorie integer not null ,  Nom_categorie varchar(30) , constraint Pk_workgroup02 primary key(Id_categorie));
+
+---------------------------------------------------------------------
+Create Table Marques(Id_marque integer not null ,  Nom_marque varchar(30) , constraint Pk_workgroup03 primary key(Id_marque));
+---------------------------------------------------------------------------------------
+Create Table Clients(Id_client integer not null ,  Nom_client varchar(30) , Prenom_client varchar(30) , Address varchar(30),
+Tele integer , Email varchar(30) , constraint Pk_workgroup04 primary key(Id_client));
+---------------------------------------------------------------------------------------
+Create Table Ventes(Id_vente integer not null ,  Date_vente varchar(30) , Remise varchar(30) , Total varchar(700)
+  , constraint Pk_workgroup05 primary key(Id_vente));
+
+
+----------------- insertion a la table PRODUITS--------------------
+INSERT INTO Produits VALUES(1 , 'Redmi not 10' , '40000 da' , '43000 da' , 4);
+INSERT INTO Produits VALUES(2 , 'Logan' , '2000000 da' , '2700000 da' , 2);
+INSERT INTO Produits VALUES(3 , 'Z1000' , '1100000 da' , '1500000 da' , 1);
+INSERT INTO Produits VALUES(4 , 'Xps 15' , '90000 da' , '140000 da' , 3);
+INSERT INTO Produits VALUES(5 , 'A50' , '2000000 da' , '2700000 da' , 5);
+INSERT INTO Produits VALUES(6 , 'Accent' , '1400000 da' , '1900000 da' , 2);
+INSERT INTO Produits VALUES(7 , 'R6' , '110000 da' , '160000 da' , 3);
+INSERT INTO Produits VALUES(8 , 'Leon' , '3600000 da' , '4200000 da' , 1);
+
+
+----------------- insertion a la table CLIENTS --------------------
+INSERT INTO Clients VALUES(1 , 'gnabry' ,'karim' , 'akbou', 02155000 , 'gnb@gmail.com' );
+INSERT INTO Clients VALUES(2 , 'lewandowski', 'samir' , 'tazmalt', 07755012 , 'lwdski@gmail.com' );
+INSERT INTO Clients VALUES(3 , 'Sané', 'jamel' , 'sidi aich', 08254033 , 'sn@gmail.com' );
+INSERT INTO Clients VALUES(4 , 'Muller', 'salim' , 'bejaia', 08254033 , 'ml@gmail.com' );
+INSERT INTO Clients VALUES(5 , 'Goretzka', 'nabil' , 'sedouk', 08254033 , 'gtka@gmail.com' );
+INSERT INTO Clients VALUES(6 , 'Kimmich', 'sofien' , 'tamokra', 08254033 , 'sn@gmail.com' );
+INSERT INTO Clients VALUES(7 , 'Davis', 'mourad' , 'azazga', 08254033 , 'sn@gmail.com' );
+INSERT INTO Clients VALUES(8 , 'Sule', 'toufik' , 'ouad ghir', 08254033 , 'sn@gmail.com' );
+
+
+
+
+----------------- insertion a la table VENTES ---------------------
+INSERT INTO Ventes VALUES(01, '20/05/2020' , '5%' , '50000');
+INSERT INTO Ventes VALUES(02, '02/09/2021' , '3%' , '40000');
+INSERT INTO Ventes VALUES(03, '08/01/2019' , '4%' , '30000');
+INSERT INTO Ventes VALUES(04, '10/05/2020' , '7%' , '60000');
+INSERT INTO Ventes VALUES(05, '20/04/2018' , '5%' , '50000');
+INSERT INTO Ventes VALUES(06, '13/02/2021' , '12%' , '40000');
+INSERT INTO Ventes VALUES(07, '23/01/2020' , '8%' , '30000');
+INSERT INTO Ventes VALUES(08, '21/03/2019' , '6%' , '20000');
+
+
+----------------- insertion a la table Categories ---------------------
+INSERT INTO Categories VALUES(1, 'Smartphone');
+INSERT INTO Categories VALUES(2, 'Voitures');
+INSERT INTO Categories VALUES(3, 'Motos');
+INSERT INTO Categories VALUES(4, 'Pc portables');
+
+----------------- insertion a la table Marques ---------------------
+INSERT INTO Marques VALUES(1 , 'Xaomi');
+INSERT INTO Marques VALUES(2 , 'Dacia');
+INSERT INTO Marques VALUES(3 , 'Kawasaki');
+INSERT INTO Marques VALUES(4 , 'Dell');
+INSERT INTO Marques VALUES(5 , 'Samsung');
+INSERT INTO Marques VALUES(6 , 'Hyundai');
+INSERT INTO Marques VALUES(7 , 'Kojima');
+INSERT INTO Marques VALUES(8 , 'Seat');
+
+
+
+
+
+
+  				 

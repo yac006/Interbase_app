@@ -1,4 +1,10 @@
 # Interbase_app
+Avant d'executer l'application il faut d'abord creér la base de données avec les requètes sql qui se trouve 
+dans le fichier ("Requete de création et d'insertion dans interbase db.txt").
+
+Remarque :  Type bdd => Interbase 7
+
+
 ![Capture d’écran 2022-02-19 193156](https://user-images.githubusercontent.com/78097243/154814677-82883980-d256-4dc5-821d-9c43ba3e0a12.png)
 ![Capture d’écran 2022-02-19 193403](https://user-images.githubusercontent.com/78097243/154814686-0b7d0cb4-33a2-4f35-af1d-6563a0121397.png)
 ![Capture d’écran 2022-02-19 193536](https://user-images.githubusercontent.com/78097243/154814690-98cb6d1c-dacc-49d7-89af-71d8cdd3620d.png)
